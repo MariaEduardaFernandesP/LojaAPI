@@ -1,0 +1,108 @@
+CÓDIGOS USADOS NO POSTMAN: 
+
+1- Clientes
+
+POST: 
+ {
+      "nome" : "Jéssica Alves",
+      "endereco" : "Av. Souza Ramos",
+      "cpf" : "171.222.733-45",
+      "telefone" : "(11) 98965-4521",
+      "email" :"jessicaalves@gmail.com",
+      "dataNasc" :"1985-09-27"
+}
+
+PUT:
+ {
+      "id":11,
+      "nome" : "Jéssica Almeida",
+      "endereco" : "Av. Souza Ramos, SP",
+      "cpf" : "171.222.733-45",
+      "telefone" : "(11) 98965-4521",
+      "email" :"jessicaalves@gmail.com",
+      "dataNasc" :"1985-09-27"
+}
+
+PATCH: 
+ {
+    "tabela":"Clientes",
+      "id": 10,
+      "nome" : "Gheovana Souza",
+      "endereco" : "Av. Souza Ramos, SP"
+ 
+}
+
+DELETE:
+{
+    "id" : 11
+}
+
+
+
+2- Produtos:
+
+POST:
+{
+   "nome": "Bolinho",
+   "descricao": "Rolinhos de wafer crocante recheados e cobertos com muito chocolate. Perfeitos para comer à qualquer hora e ",
+   "qtd": "29",
+   "marca": "Bauduccos",
+   "preco": "5.99",
+   "validade": "2025-08-31"
+}
+
+PUT:
+{
+   "id":11,
+   "nome": "Choco Biscuit Tube",
+   "descricao": "Rolinhos de wafer crocante recheados e cobertos com muito chocolate. Perfeitos para comer à qualquer hora e lugar",
+   "qtd": "89",
+   "marca": "Bauducco",
+   "preco": "4.99",
+   "validade": "2027-08-31"
+}
+
+PATCH:
+{
+   "tabela":"Produtos",
+     "id": 11,
+     "descricao" : "Rolinhos de wafer crocante recheados e cobertos com muito chocolate, 30g."v
+}
+
+-DELETE:
+{
+   "id" : 11
+}
+
+
+
+3- Pedidos: 
+
+POST:
+{
+   "id_cliente": 1,
+   "data": "2024-08-31"
+   
+}
+
+PUT:
+{
+ 
+   "id_cliente": 2,
+   "data": "2024-08-20"
+   
+}
+
+PATCH:
+{
+   "tabela":"Pedidos",
+     "id_pedido": 10,
+     "id_cliente": 2
+}
+ 
+DELETE:
+{
+    "id_pedido" : 7
+}
+ 
+
